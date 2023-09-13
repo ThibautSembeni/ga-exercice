@@ -4,13 +4,13 @@ on:
   push:
     branches:
       - dev
-      - "feat/**"
-    paths:
-      - "**.ts"
-      - "specific_folder/**"
-      - "!staging/**"
-  pull_request:
-    types: [opened, closed]
+  #     - "feat/**"
+  #   paths:
+  #     - "**.ts"
+  #     - "specific_folder/**"
+  #     - "!staging/**"
+  # pull_request:
+  #   types: [opened, closed]
   # schedule:
   #   - cron: "*/5 * * * *"
   #   - cron: "0 */1,5 * * *"
