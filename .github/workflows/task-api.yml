@@ -20,7 +20,7 @@ jobs:
           MONGO_INITDB_ROOT_PASSWORD: task
         ports:
           - 27017:27017
-        options: --health-cmd mongo --health-interval 10s --health-timeout 10s --health-retries 5 --start-period 40s
+        # options: --health-cmd mongo --health-interval 10s --health-timeout 10s --health-retries 5 --start-period 40s
     steps:
       - name: Checkout
         uses: actions/checkout@v4
