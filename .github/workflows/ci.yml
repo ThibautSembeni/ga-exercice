@@ -13,7 +13,8 @@ on:
   #   types: [opened, closed]
   # schedule:
   #   - cron: "*/5 * * * *"
-  #   - cron: "0 */1,5 * * *"
+  #   - cron: "0 0/3 * * *"
+  #   - cron: "30 1/3 * * *"
   #   - cron: "0 3 * * 2"
 
 jobs:
